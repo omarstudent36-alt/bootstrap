@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* ================= NAV ================= */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+}
+
+
+
+nav .container img {
+    width: 100px;
+    height: 16px;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .container ul a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .container svg{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+
+nav .container button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section .container {
+  display: flex;
+  
+}
+
+section .container .left {
+  background-color: #000;
+  padding: 30px;
+  color: #fff;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section .container .left .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .container .left .content .line{
+     position: absolute;
+    left: 0;
+    width: 6px;
+    top: 38%;
+    height: 130px;
+    background: linear-gradient(to bottom, #FFC593, #BC7198, #5A77FF);
+}
+
+section .container .left .content h2 {
+  line-height: 48px;
+  font-size: 40px;
+}
+
+section .container .left .content p {
+  opacity: 60%;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+section .container .right {
+  width: 60%;  
+}
+
+section .container .right img {
+  width: 100%;  
+  height: 500px;
+  object-fit: cover;  
+  display: block;
+}
+
+.whatweoffer .cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+ padding: 100px;
+ gap: 30px;
+}
+.whatweoffer .cards .card{
+   
+    width: calc((100% - 60px) / 3);
+gap: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.whatweoffer .cards .card svg{
+    width: 60px;
+    height: 60px;
+  
+}
+.whatweoffer .cards  .content{
+    width: 70%;
+ 
+}
+
+
+.whatweoffer .cards .card  h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+   
+}
+.whatweoffer .cards .card p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height:25px;
+ 
+}
+.beta .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+
+}
+
+
+.beta .container   {
+   background-image: url("./beta.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+    position: relative;
+    
+}
+
+.beta .container .content{
+    width: 45%;
+}
+
+.beta .container .content h2{
+    line-height: 30px;
+    letter-spacing: 4.17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.beta .container .content .line{
+    position: absolute;
+    left: 0;
+    width: 6px;
+   top: 0;
+    height: 300px;
+    background: linear-gradient(to bottom, #FFC593, #BC7198, #5A77FF);
+}
+
+.beta .container .text a{
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.beta .container .text svg{
+    margin-left: 10px;
+    margin-bottom: -3px;
+}
+
+footer{
+    background-color: #000;
+}
+
+
+footer .container{
+    display: flex;
+ gap: 80px;
+padding: 60px;
+
+}
+
+
+footer .container img{
+    width: 142px;
+    height: 16px;
+   
+}
+
+footer .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .icons{
+    display: flex;
+   
+    gap: 20px;
+   
+}
+
+
+
+footer .container .icons svg{
+    width: 30px;
+    height: 50px;
+padding: 5px;
+
+
+}
+
+
+footer .container .links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+footer .container .links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+   
+}
+
+footer .container .links a:hover{
+    opacity: 30%;
+}
+
+
+footer .container .last{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: auto;
+}
+
+
+footer .container .last a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container .last p{
+    font-size: 15px;
+    color: #fff;
+    
+    opacity: 50.25%;
+   margin-left: -30px;
+}
+
+@media (max-width:991px){
+    nav .container{
+        padding: 10px 20px;
+     }
+     .whatweoffer .cards .card{
+          width: calc((100% - 60px) / 2);
+     }
+section .container .left .content {
+    width: 70%;
+}
+footer .container {
+  flex-direction: column;
+
+    gap: 20px;
+  }
+
+
+  footer .container .content{
+    gap: 40px;
+  }
+
+ footer .container .links {
+   
+    gap: 10px;
+    flex-direction: row;
+  }
+
+}
+
+
+@media (max-width:767px){
+      nav .container ul a,
+    nav .container button{
+        display: none;
+    }
+    nav .container svg{
+   
+    display: block;
+}
+     section .container{
+        flex-direction: column-reverse;
+     }
+     section .container .left{
+        width: 100%;
+        height: 300px;
+     }
+     section .container .right{
+        width: 100%;
+        
+     }
+ 
+
+     .whatweoffer .cards .card{
+          width: 100%;
+     }
+     .beta .container {
+        flex-direction: column;
+     }
+     
+     .beta .container .content .line{
+    width: 17%;
+    height: 6px;
+    left: 110px;
+}
+
+     section .container .left .content .line{
+        height: 6px;
+        left: 130px;
+        top: 0;
+   width: 20%;
+     }
+   
+      footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .links{
+        flex-direction: column;
+        
+      
+    }
+  footer .container .content{
+    gap: 40px;
+  }
+
+     footer .container .links a{
+font-size: 12px;
+     }
+
+    footer .container .last {
+        margin-left: 0;
+        gap: 50px;
+    }
+footer .container .last a{
+    font-size: 14px;
+     text-align: center;
+}
+
+       footer .container .last p{
+            font-size: 15px;
+           
+        }
+
+}

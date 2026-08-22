@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* ================= NAV ================= */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+}
+
+
+
+nav .container img {
+    width: 100px;
+    height: 16px;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .container ul a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .container svg{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+nav .container ul a:hover{
+    opacity: 30%;
+}
+
+nav .container button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/*ده هيظهر في الموبايل فقط*/
+.private{
+    display: none;
+}
+
+.private .container .top {
+      background-image: url("./moon.png");
+    height: 30vh;
+ 
+     background-position:center;
+    background-size: cover;
+}
+
+.private .container .bottom{
+    padding: 60px;
+    background-color: #000;
+    color: #fff;
+  
+  
+}
+
+.private .container .bottom span{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.private .container .bottom .special{
+    line-height: 30px;
+}
+
+.private .container .bottom p{
+opacity: 60%;
+font-size: 15px;
+line-height: 25px;
+}
+.private .container .bottom .content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.private .container .bottom a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+
+
+section .container .top {
+    background-image: url("./moon.png");
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+  color: #fff;
+     padding: 100px;
+     position: relative;
+     transition: transform 0.4s;
+}
+
+section .container .fillimg{
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(to bottom,#FFC593,#BC71987F,#5A77FF00);
+    left: -120px;
+    bottom: -100px;
+    opacity: 0.60;
+    border-radius: 50% 0 0 50%;
+transform: rotate(200deg);
+display: none;
+
+
+
+}
+section .container .top:hover .fillimg{
+    display: flex;
+    
+}
+
+
+
+section .container .content span{
+    font-size: 12px;
+    line-height: 40px;
+}
+section .container .content h2{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+}
+section .container .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     padding-top: 200px;
+    
+  
+}
+
+section .container .content p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 60%;
+}
+section .container .content a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+section .container .content a:hover{
+    text-decoration: underline solid;
+}
+
+.trips .container{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.trips .container .firsttrip{
+    background-image: url("./sky.png");
+  
+}
+
+.trips .container .firsttrip,
+.trips .container .second,
+.trips .container .third,
+.trips .container .fourth,
+.trips .container .fifth,
+.trips .container .sixth,
+.trips .container .seventh,
+.trips .container .eight,
+.trips .container .nine,
+.trips .container .ten,
+.trips .container .eliven,
+.trips .container .twelve,
+.trips .container .thirteen,
+.trips .container .fourtten,
+.trips .container .fiften,
+.trips .container .sixteen{
+      background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+     transition: transform 0.3s;
+}
+
+
+.trips .container .firsttrip .content,
+.trips .container .second .content,
+.trips .container .third .content,
+.trips .container .fourth .content,
+.trips .container .fifth .content,
+.trips .container .sixth .content,
+.trips .container .seventh .content,
+.trips .container .eight .content,
+.trips .container .nine .content,
+.trips .container .ten .content,
+.trips .container .eliven .content,
+.trips .container .twelve .content,
+.trips .container .thirteen .content,
+.trips .container .fourtten .content,
+.trips .container .fiften .content,
+.trips .container .sixteen .content{
+ width: 80%;
+    padding-top: 200px;
+}
+
+.trips .container .firsttrip .content  svg,
+.trips .container .second .content svg,
+.trips .container .third .content svg,
+.trips .container .fourth .content svg,
+.trips .container .fifth .content svg,
+.trips .container .sixth .content svg,
+.trips .container .seventh .content svg,
+.trips .container .eight .content svg,
+.trips .container .nine .content svg,
+.trips .container .ten .content svg,
+.trips .container .eliven .content svg,
+.trips .container .twelve .content svg,
+.trips .container .thirteen .content svg,
+.trips .container .fourtten .content svg ,
+.trips .container .fiften .content svg,
+.trips .container .sixteen .content svg{
+    width: 100px;
+    margin-left: 180px;
+}
+
+.trips .container .firsttrip .boder,
+ .trips .container .second .boder,
+ .trips .container .third .boder,
+ .trips .container .fourth .boder,
+ .trips .container .fifth .boder,
+.trips .container .sixth .boder,
+.trips .container .seventh .boder,
+.trips .container .eight .boder,
+.trips .container .nine .boder,
+.trips .container .ten .boder,
+.trips .container .eliven .boder,
+.trips .container .twelve .boder,
+.trips .container .thirteen .boder,
+.trips .container .fourtten .boder,
+.trips .container .fiften .boder,
+.trips .container .sixteen .boder{
+    position: absolute;
+  width: 100%;
+    height: 6px;
+    bottom: 0;
+    background: linear-gradient(
+        to right,
+        #5b8cff,
+        #b06cff,
+        #ff8db3
+    );
+    display: none;
+}
+.trips .container .firsttrip:hover .boder,
+ .trips .container .second:hover .boder,
+ .trips .container .third:hover .boder,
+ .trips .container .fourth:hover .boder,
+ .trips .container .fifth:hover .boder,
+.trips .container .sixth:hover .boder,
+.trips .container .seventh:hover .boder,
+.trips .container .eight:hover .boder,
+.trips .container .nine:hover .boder,
+.trips .container .ten:hover .boder,
+.trips .container .eliven:hover .boder,
+.trips .container .twelve:hover .boder,
+.trips .container .thirteen:hover .boder,
+.trips .container .fourtten:hover .boder,
+.trips .container .fiften:hover .boder,
+.trips .container .sixteen:hover .boder{
+    display: block;
+    
+}
+.trips .container .firsttrip:hover,
+.trips .container .second:hover,
+.trips .container .third:hover,
+.trips .container .fourth:hover,
+.trips .container .fifth:hover,
+.trips .container .sixth:hover,
+.trips .container .seventh:hover,
+.trips .container .eight:hover,
+.trips .container .nine:hover,
+.trips .container .ten:hover,
+.trips .container .eliven:hover,
+.trips .container .twelve:hover,
+.trips .container .thirteen:hover,
+.trips .container .fourtten:hover,
+.trips .container .fiften:hover,
+.trips .container .sixteen:hover{
+    transform: translateY(-20px);
+}
+.trips .container .firsttrip .content h3,
+.trips .container .second .content h3,
+.trips .container .third .content h3,
+.trips .container .fourth .content h3,
+.trips .container .fifth .content h3,
+.trips .container .sixth .content h3,
+.trips .container .seventh .content h3,
+.trips .container .eight .content h3,
+.trips .container .nine .content h3,
+.trips .container .ten .content h3,
+.trips .container .eliven .content h3,
+.trips .container .twelve .content h3,
+.trips .container .thirteen .content h3,
+.trips .container .fourtten .content h3,
+.trips .container .fiften .content h3,
+.trips .container .sixteen .content h3{
+font-size: 14px;
+line-height: 30px;
+color: #fff;
+font-weight: 400;
+}
+
+
+
+.trips .container .firsttrip .content h2,
+.trips .container .second .content h2,
+.trips .container .third .content h2,
+.trips .container .fourth .content h2,
+.trips .container .fifth .content h2,
+.trips .container .sixth .content h2,
+.trips .container .seventh .content h2,
+.trips .container .eight .content h2,
+.trips .container .nine .content h2,
+.trips .container .ten .content h2,
+.trips .container .eliven .content h2,
+.trips .container .twelve .content h2,
+.trips .container .thirteen .content h2,
+.trips .container .fourtten .content h2,
+.trips .container .fiften .content h2,
+.trips .container .sixteen .content h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+margin-bottom: 5px;
+}
+
+.trips .container .firsttrip .content p,
+.trips .container .second .content p,
+.trips .container .third .content p,
+.trips .container .fourth .content p,
+.trips .container .fifth .content p,
+.trips .container .sixth .content p,
+.trips .container .seventh .content p,
+.trips .container .eight .content p,
+.trips .container .nine .content p,
+.trips .container .ten .content p,
+.trips .container .eliven .content p,
+.trips .container .twelve .content p,
+.trips .container .thirteen .content p,
+.trips .container .fourtten .content p,
+.trips .container .fiften .content p,
+.trips .container .sixteen .content p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.trips .container .firsttrip .content .specall,
+.trips .container .second .content .specall,
+.trips .container .third .content .specall,
+.trips .container .fourth .content .specall,
+.trips .container .fifth .content .specall,
+.trips .container .sixth .content .specall,
+.trips .container .seventh .content .specall,
+.trips .container .eight .content .specall,
+.trips .container .nine .content .specall,
+.trips .container .ten .content .specall,
+.trips .container .eliven .content .specall,
+.trips .container .twelve .content .specall,
+.trips .container .thirteen .content .specall,
+.trips .container .fourtten .content .specall,
+.trips .container .fiften .content .specall,
+.trips .container .sixteen .content .specall{
+    width: 90%;
+   
+    height: 1px;
+    background-color: #fff;
+ opacity: 25%;
+
+}
+.trips .container .firsttrip .content a,
+.trips .container .second .content a,
+.trips .container .third .content a,
+.trips .container .fourth .content a,
+.trips .container .fifth .content a,
+.trips .container .sixth .content a,
+.trips .container .seventh .content a,
+.trips .container .eight .content a,
+.trips .container .nine .content a,
+.trips .container .ten .content a,
+.trips .container .eliven .content a,
+.trips .container .twelve .content a,
+.trips .container .thirteen .content a,
+.trips .container .fourtten .content a,
+.trips .container .fiften .content a,
+.trips .container .sixteen .content a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+
+.trips .container .second{
+    background-image:url("./abrag.png") ;
+  
+}
+
+
+.trips .container .third{
+    background-image:url("./voyage.png") ;
+
+}
+
+
+.trips .container .fourth{
+    background-image:url("./art.png") ;
+}
+
+
+
+
+.trips .container .fifth{
+    background-image: url("./desert.png");
+    
+}
+
+.trips .container .sixth{
+    background-image: url("./tree.png");
+
+}
+
+.trips .container .seventh{
+    background-image: url("./lion.png");
+}
+.trips .container .eight{
+    background-image: url("./nowhere.png");
+}
+
+.trips .container .nine{
+    background-image: url("./sea.png");
+}
+
+.trips .container .ten{
+    background-image: url("./hourse.png");
+}
+.trips .container .eliven{
+    background-image: url("./waves.png");
+}
+.trips .container .twelve{
+    background-image: url("./calm\ watres.png");
+}
+.trips .container .thirteen{
+    background-image: url("./milky.png");
+}
+.trips .container .fourtten{
+    background-image: url("./dark\ forest.png");
+}
+.trips .container .fiften{
+    background-image: url("./beauty.png");
+}
+
+.trips .container .sixteen{
+    background-image: url("./dreams.png");
+}
+
+footer{
+    background-color: #000;
+}
+
+
+footer .container{
+    display: flex;
+ gap: 80px;
+padding: 60px;
+
+}
+
+
+footer .container img{
+    width: 142px;
+    height: 16px;
+   
+}
+
+footer .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .icons{
+    display: flex;
+   
+    gap: 20px;
+   
+}
+
+
+
+footer .container .icons svg{
+    width: 30px;
+    height: 50px;
+padding: 5px;
+
+
+}
+
+
+footer .container .links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+footer .container .links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+   
+}
+
+footer .container .links a:hover{
+    opacity: 30%;
+}
+
+
+footer .container .last{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: auto;
+}
+
+
+footer .container .last a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container .last p{
+    font-size: 15px;
+    color: #fff;
+    
+    opacity: 50.25%;
+   margin-left: -30px;
+}
+
+
+@media (max-width:991px){
+      nav .container{
+        padding: 10px 20px;
+     }
+     section .container .content {
+width: 40%;
+     }
+     .trips .container .firsttrip,
+.trips .container .second,
+.trips .container .third,
+.trips .container .fourth,
+.trips .container .fifth,
+.trips .container .sixth,
+.trips .container .seventh,
+.trips .container .eight,
+.trips .container .nine,
+.trips .container .ten,
+.trips .container .eliven,
+.trips .container .twelve,
+.trips .container .thirteen,
+.trips .container .fourtten,
+.trips .container .fiften,
+.trips .container .sixteen{
+    width: 50%;
+}
+ footer .container {
+  flex-direction: column;
+
+    gap: 20px;
+  }
+
+
+  footer .container .content{
+    gap: 40px;
+  }
+
+ footer .container .links {
+   
+    gap: 10px;
+    flex-direction: row;
+  }
+
+
+}
+
+@media (max-width:767px){
+     nav .container ul a,
+    nav .container button{
+        display: none;
+    }
+    nav .container svg{
+   
+    display: block;
+}
+.trips .container .firsttrip,
+.trips .container .second,
+.trips .container .third,
+.trips .container .fourth,
+.trips .container .fifth,
+.trips .container .sixth,
+.trips .container .seventh,
+.trips .container .eight,
+.trips .container .nine,
+.trips .container .ten,
+.trips .container .eliven,
+.trips .container .twelve,
+.trips .container .thirteen,
+.trips .container .fourtten,
+.trips .container .fiften,
+.trips .container .sixteen{
+    width: 100%;
+}
+.trips .container .firsttrip .content  svg,
+.trips .container .second .content svg,
+.trips .container .third .content svg,
+.trips .container .fourth .content svg,
+.trips .container .fifth .content svg,
+.trips .container .sixth .content svg,
+.trips .container .seventh .content svg,
+.trips .container .eight .content svg,
+.trips .container .nine .content svg,
+.trips .container .ten .content svg,
+.trips .container .eliven .content svg,
+.trips .container .twelve .content svg,
+.trips .container .thirteen .content svg,
+.trips .container .fourtten .content svg,
+.trips .container .fiften .content svg,
+.trips .container .sixteen .content svg{
+    margin-left: 480px;
+}
+
+
+section {
+    display: none;
+
+
+}
+
+
+
+.private{
+    display: flex;
+}
+ footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .links{
+        flex-direction: column;
+        
+      
+    }
+  footer .container .content{
+    gap: 40px;
+  }
+
+     footer .container .links a{
+font-size: 12px;
+     }
+
+    footer .container .last {
+        margin-left: 0;
+        gap: 50px;
+    }
+footer .container .last a{
+    font-size: 14px;
+     text-align: center;
+}
+
+       footer .container .last p{
+            font-size: 15px;
+           
+        }
+
+}
+
+
+

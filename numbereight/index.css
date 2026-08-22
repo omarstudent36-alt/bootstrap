@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif; 
+}
+
+
+body{
+   font-family: "Open Sans", sans-serif;
+  
+}
+
+section   {
+   background-image: url("./04c92f4b1888be1f59c0cf8549526806.jpeg");
+height: 100vh;
+
+}
+section nav .containernav ul button {
+    width: 30px;
+    height: 30px;
+  background: none;
+  border: none;
+    display: none;
+}
+section nav .containernav ul button svg{
+      width: 30px;
+    height: 30px;
+    color: #f2f2f2;
+}
+
+section .container .content h1{
+    font-size: 96px;
+    margin-left: -20px;
+}
+section .container .content a{
+    background: linear-gradient(135deg, #478ac9, #24d9ea);
+    text-decoration: none;
+    border: none;
+}
+main{
+    background-color: #e9f2fa;
+}
+
+input{
+    background-color: #f2f2f2;
+  
+  
+}
+input::placeholder{
+    font-size: 14px;
+    
+}
+footer .news .socialicons svg{
+    width: 24px;   
+  height: 24px;
+}
+.landscape{
+    background-image: url("./landscape.jpeg");
+     width: 100%;
+     height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.landscape .container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.landscape .container .content a{
+    background: none;
+    color: white;
+    border: 2px solid ;
+}
+
+@media (max-width:991px) {
+    section nav .containernav ul a{
+       display: none;
+    }
+    section nav .containernav ul button{
+        display: block;
+    }
+    section nav .offcanvas-body ul a{
+     display: block;
+    }
+
+}
+

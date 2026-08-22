@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+
+}
+
+
+/* ================= NAV ================= */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+}
+
+
+
+nav .container img {
+    width: 100px;
+    height: 16px;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .container ul a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .container svg{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+nav .container ul a:hover{
+    opacity: 30%;
+}
+
+nav .container button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+nav .container button:hover{
+  background-color: #DFDFDF;
+  color: #000;
+}
+
+/* ================= STORIES ================= */
+
+.stories {
+    padding-top: 10px;
+}
+
+.stories .container {
+    display: flex;
+
+}
+
+.stories .left {
+    width: 40%;
+    min-height: 657px;
+
+    background: #000;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+.stories .left .content {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0;
+}
+
+.stories .left .content .line{
+    position: absolute;
+    left: 0;
+    width: 6px;
+    top: 35%;
+    height: 210px;
+    background: linear-gradient(to bottom, #FFC593, #BC7198, #5A77FF);
+}
+
+.stories .left .content h2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    font-weight: 700;
+}
+
+.stories .left .content p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.stories .left .content button {
+    border: none;
+    background: none;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.stories .left .content button svg{
+    margin-left: 30px;
+    margin-bottom: -3px;
+}
+
+
+
+.stories .left .content button:hover{
+    text-decoration: underline solid;
+    
+}
+
+.stories .container .right {
+    width: 60%;
+}
+
+.stories .container .right img {
+    width: 100%;
+    height: 657px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* ================= BEAUTIFUL ================= */
+
+.beatiful {
+    padding-top: 0;
+}
+
+.beatiful .container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.beatiful .top {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    padding: 0;
+}
+
+.beatiful .top .content {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0;
+}
+
+.beatiful .top .content h2 {
+    color: #000;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    font-weight: 700;
+}
+
+.beatiful .top .content p {
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.beatiful .top .content button {
+    border: none;
+    background: none;
+    color: #000;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.beatiful .top .content button svg{
+    margin-left: 30px;
+    margin-bottom: -3px;
+}
+
+.beatiful .top .content button:hover{
+    text-decoration: underline solid;
+}
+
+.beatiful .container .bottom {
+    width: 60%;
+}
+ 
+
+
+.beatiful .container .bottom img {
+    width: 100%;
+    height: 659px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* ================= DESIGN ================= */
+
+.design {
+    padding-top: 0;
+}
+
+.design .container {
+    display: flex;
+}
+
+.design .container .top {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    padding: 0;
+}
+
+.design .top .content {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.design .top .content h2 {
+    color: #000;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    font-weight: 700;
+}
+
+.design .top .content p {
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.design .top .content button {
+    border: none;
+    background: none;
+    color: #000;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.design .top .content button svg{
+    margin-left: 30px;
+    margin-bottom: -3px;
+}
+
+.design .top .content button:hover{
+    text-decoration: underline solid;
+}
+
+.design .container .bottom {
+    width: 60%;
+}
+
+.design .container .bottom img {
+    width: 100%;
+    height: 659px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.trips .container{
+    display: flex;
+}
+
+.trips .container .firsttrip,
+.trips .container .second,
+.trips .container .third,
+.trips .container .fourth{
+    background-image: url("./sky.png");
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+      transition: transform 0.3s;
+}
+.trips .container .firsttrip .content,
+.trips .container .second .content,
+.trips .container .third .content,
+.trips .container .fourth .content{
+    width: 80%;
+    padding-top: 200px;
+}
+
+.trips .container .firsttrip .boder,
+ .trips .container .second .boder,
+ .trips .container .third .boder,
+ .trips .container .fourth .boder{
+    position: absolute;
+  width: 100%;
+    height: 6px;
+    bottom: 0;
+ 
+    background: linear-gradient(
+        to right,
+        #5b8cff,
+        #b06cff,
+        #ff8db3
+    );
+    display: none;
+}
+.trips .container .firsttrip:hover .boder,
+ .trips .container .second:hover .boder,
+ .trips .container .third:hover .boder,
+ .trips .container .fourth:hover .boder
+{
+    display: block;
+    
+}
+.trips .container .firsttrip:hover,
+.trips .container .second:hover,
+.trips .container .third:hover,
+.trips .container .fourth:hover{
+    transform: translateY(-20px);
+}
+
+.trips .container .firsttrip .content h2,
+.trips .container .second .content h2,
+.trips .container .third .content h2,
+.trips .container .fourth .content h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+margin-bottom: 5px;
+}
+
+.trips .container .firsttrip .content p,
+.trips .container .second .content p,
+.trips .container .third .content p,
+.trips .container .fourth .content p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.trips .container .firsttrip .content .specall,
+.trips .container .second .content .specall,
+.trips .container .third .content .specall,
+.trips .container .fourth .content .specall{
+    width: 90%;
+   
+    height: 1px;
+    background-color: #fff;
+ opacity: 25%;
+}
+.trips .container .firsttrip .content a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+.trips .container .second{
+    background-image:url("./abrag.png") ;
+   
+}
+
+
+
+.trips .container .second .content a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+.trips .container .third{
+    background-image:url("./voyage.png") ;
+  
+}
+
+.trips .container .third .content a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.trips .container .fourth{
+    background-image:url("./art.png") ;
+   
+}
+.trips .container .firsttrip .content  svg,
+.trips .container .second .content svg,
+.trips .container .third .content svg,
+.trips .container .fourth .content svg{
+    width: 100px;
+    margin-left: 180px;
+}
+
+.trips .container .fourth .content a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+.whatweoffer .cards{
+    display: flex;
+    
+ padding: 100px;
+ gap: 20px;
+}
+.whatweoffer .cards .card{
+   
+    width: calc((100% - 20px) / 3);
+gap: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.whatweoffer .cards .card svg{
+    width: 60px;
+    height: 60px;
+  
+}
+.whatweoffer .cards  .content{
+    width: 70%;
+ 
+}
+
+
+.whatweoffer .cards .card  h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+   
+}
+.whatweoffer .cards .card p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height:25px;
+ 
+}
+
+footer{
+    background-color: #000;
+}
+
+
+footer .container{
+    display: flex;
+ gap: 80px;
+padding: 60px;
+
+}
+
+
+footer .container img{
+    width: 142px;
+    height: 16px;
+   
+}
+
+footer .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .icons{
+    display: flex;
+   
+    gap: 20px;
+   
+}
+
+
+
+footer .container .icons svg{
+    width: 30px;
+    height: 50px;
+padding: 5px;
+
+
+}
+
+
+footer .container .links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+footer .container .links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+   
+}
+
+footer .container .links a:hover{
+    opacity: 30%;
+}
+
+
+footer .container .last{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: auto;
+}
+
+
+footer .container .last a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container .last p{
+    font-size: 15px;
+    color: #fff;
+    
+    opacity: 50.25%;
+   margin-left: -30px;
+}
+
+
+@media (max-width:991px) {
+     nav .container{
+        padding: 10px 20px;
+     }
+      .whatweoffer .cards .card{
+         width: 100% 
+        
+    }
+
+   .whatweoffer .cards{
+    display: flex;
+flex-wrap: wrap;
+padding-left: 10px;
+padding-right: 10px;
+   } 
+
+   .trips .container{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+  .trips .container .firsttrip,
+  .trips .container .second,
+  .trips .container .third,
+  .trips .container .fourth{
+  width: 50%;
+    height: 300px;
+  }
+  .trips .container .firsttrip .content,
+  .trips .container .second .content,
+  .trips .container .third .content,
+  .trips .container .fourth .content{
+    padding-top: 100px;
+   
+  }
+
+
+    .trips .container .firsttrip .content .specall,
+  .trips .container .second .content .specall,
+   .trips .container .third .content .specall,
+    .trips .container .fourth .content .specall {
+    width: 350px;
+   
+   
+
+
+
+
+}
+
+   .design .container .top{
+        width: 80%;
+    }
+    .design .top .content{
+        width: 80%;
+    }
+       .design .container .top{
+        width: 80%;
+    }
+       .beatiful .container .bottom{
+        width: 30%;
+    }
+ 
+ .design .container .bottom img {
+    width: 100%;
+   
+}
+
+    .beatiful .top{
+        width: 70%;
+    }
+    .beatiful .top .content{
+        width: 80%;
+        
+    }
+     .stories .container .right {
+width: 40%;
+    }
+
+    .stories .left {
+width: 60%;
+    }
+
+
+  footer .container {
+  flex-direction: column;
+    gap: 20px;
+  }
+
+
+  footer .container .content{
+    gap: 40px;
+  }
+
+ footer .container .links {
+   
+    gap: 10px;
+    flex-direction: row;
+  }
+
+
+}
+  
+
+
+    
+
+@media (max-width:767px) {
+    nav .container ul a,
+    nav .container button{
+        display: none;
+    }
+    nav .container svg{
+   
+    display: block;
+}
+  .stories .container {
+flex-direction: column-reverse;
+    }
+         .stories .container .right {
+width: 100%;
+    }
+    .stories .left .content{
+        padding-right: 50px;
+        width: 60%;
+    }
+
+    .stories .left {
+width: 100%;
+    }
+.stories .left .content .line{
+width: 20%;
+height: 6px;
+top: 0;
+left: 140px;
+}
+
+.trips .container .firsttrip .content  svg,
+.trips .container .second .content svg,
+.trips .container .third .content svg,
+.trips .container .fourth .content svg{
+    margin-left: 450px;
+}
+
+.beatiful{
+    padding: 0;
+}
+
+.beatiful .container{
+    flex-direction: column-reverse;
+   
+      padding-bottom: 50px;
+
+}
+.beatiful .top .content{
+    width: 70%;
+}
+
+.beatiful .top .content h2{
+    margin-top: 20px;
+}
+
+
+.beatiful .container .bottom{
+    width: 120%;
+  
+}
+
+.design .container{
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+}
+
+.design .container .bottom {
+    width: 120%;
+}
+
+.design .top .content h2{
+    margin-top: 20px;
+}
+
+  .trips .container .firsttrip,
+  .trips .container .second,
+  .trips .container .third,
+  .trips .container .fourth{
+    width: 100%;
+    height: 300px;
+  }
+  .trips .container .firsttrip .content,
+  .trips .container .second .content,
+  .trips .container .third .content,
+  .trips .container .fourth .content{
+  padding-right: 29px;
+  
+  }
+  .trips .container .firsttrip .content .specall,
+  .trips .container .second .content .specall,
+   .trips .container .third .content .specall,
+    .trips .container .fourth .content .specall {
+   width: 90%;
+   
+   
+
+
+}
+
+   .whatweoffer .cards .card{
+         width: 100% 
+        
+    }
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .links{
+        flex-direction: column;
+        
+      
+    }
+  footer .container .content{
+    gap: 40px;
+  }
+
+     footer .container .links a{
+font-size: 12px;
+     }
+
+    footer .container .last {
+        margin-left: 0;
+        gap: 50px;
+    }
+footer .container .last a{
+    font-size: 14px;
+     text-align: center;
+}
+
+       footer .container .last p{
+            font-size: 15px;
+           
+        }
+
+
+
+
+
+
+
+    }
+    

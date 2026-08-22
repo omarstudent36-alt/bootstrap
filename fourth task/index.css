@@ -1,0 +1,312 @@
+
+
+
+header{
+   
+    width: 1,440px;
+   height: 207.19px;
+    background-color:#3F51B5 ;
+    border-radius: 26px;
+    padding-top: 38px;
+    border: 5px solid #2C387E;
+    padding-bottom: 42.19px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.special{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+    font-weight: 700;
+font-style: normal;
+color: white;
+}
+
+.buttonscontainer{
+   display:inline-flex;
+    align-items: center;
+   gap:44.5px ;
+  
+}
+
+.catelog ,.event,.kids,.contact{
+background-color: #475FC2;
+border: 2px solid white;
+  padding: 10px 20px 13px 20px;
+  margin: auto;
+border-radius: 5px;
+color: white;
+}
+
+p{
+  display:inline-block;
+  margin: auto;
+  padding: 15px 15px 1px 10px ;
+  color: white;
+}
+
+
+.books{
+  display: flex;
+  margin: 30px 20px 100px 200px;
+  width: 1500px;
+ height:191.05999755859375px;
+ background-color: #F7E9CD;
+ border: 2px solid #EAC17B ;
+ border-radius: 20px;
+}
+
+
+
+.Summer{
+display: inline-block;
+text-align: end;
+ padding: 55.9px,27px,45.08px,200px;
+  width:900px ;
+  height: 28px;
+  font-family:Liberation Sans;
+  font-weight: 700;
+ font-style: bold;
+ font-size: 24px;
+ color: #B37416;
+}
+
+.Join{
+  display: inline-block;
+  font-style:Liberation Sans ;
+  text-align: end;
+  width:1000px ;
+  color: #A6792A;
+  font-size:18.1px ;
+  
+}
+
+.highlights{
+  display: flex;
+  width:1500px ;
+  height: 267.7200012207031px;
+   margin: 20px 20px 100px 200px;
+  border-radius:16px ;
+  border: 2px solid #DAE1EE ;
+  background-color: #F5FAFE;
+}
+
+
+.highlights h1{
+  width: 1100px;
+  font-family:Liberation Sans ;
+  text-align: end;
+  font-weight: 700;
+ font-style: initial;
+ font-size: 19.5px;
+}
+.imagecontainer {
+  display: flex;
+  width: 1028px;
+  justify-content: flex-start; /* لتجميع البطاقات من البداية */
+  align-items: center;
+  gap: 38.4px;                 /* المسافة المضبوطة بين الكروت */
+  padding: 0 40.55px 14px 40.55px;
+  margin: 0 auto;              /* لتوسيط الحاوية */
+}
+
+.firstimage {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;         /* لتوسيط محتويات الكارت */
+  width: 290px;
+ padding-left: 750px;
+  height: 202.4px;
+  border-radius: 13px;
+  padding: 17px 2px 26px 2px;
+  border: 2px solid #B2BFE7;
+  gap: 10px;
+  margin: 0 ;        /* إلغاء أي هوامش سابقة */
+  margin-top: 10px;
+}
+.firstimage img {
+  width: 67px;
+  height: 80px;
+  border-radius: 7px;
+  border: 1px solid #B2BFE7;
+  margin: 0 !important;
+}
+.firstimage h2{
+text-align: center;
+  width: 286px;
+  height: 22px;
+  margin-top: -60px;
+  padding-bottom: 400px;
+line-height: 100%;
+  font-family: Liberation Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18.7px;
+  color: #133B51;
+}
+
+.firstimage span{
+  width:286px ;
+  text-align: center;
+  padding-top: 50px;
+  height: 18px;
+  font-family: Liberation Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color:#133B51 ;
+}
+
+.secondimage{
+  order: 1;
+    display: flex;
+width:290px ;
+flex-direction: column;
+
+height: 202.39999389648438px;
+border-radius: 13px;
+
+
+margin-top: 10px;
+padding-top:17px ;
+padding-right: 2px;
+padding-bottom:26px ;
+padding-left: 2px;
+border: 2px solid #B2BFE7;
+gap: 18.7px;
+
+}
+
+.secondimage img{
+    width: 67px;
+  height: 80px;
+  border-radius:7px ;
+  border: 1px solid #B2BFE7;
+margin-left: 100px;
+
+}
+/* الكارت الثالث */
+.thirdimage {
+  order: 3; /* يظهر في الآخر تماماً */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
+  height: 202.4px;
+  border-radius: 13px;
+  padding: 17px 100px 26px 2px;
+  margin-right: 50px;
+  margin-top: 10px;
+  border: 2px solid #B2BFE7;
+  gap: 12px;
+  margin-right: 300px;
+}
+.thirdimage img {
+  width: 67px;
+  height: 80px;
+ 
+  border-radius: 7px;
+  border: 1px solid #B2BFE7;
+ margin-left: 120px;
+}
+
+.thirdimage h2 {
+  text-align: center;
+  width: 100%;
+margin-left: 100px;
+  padding: 0 !important;
+  line-height: 1.2;
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18.7px;
+  color: #133B51;
+}
+
+.thirdimage span {
+  width: 100%;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #133B51;
+}
+
+.community{
+  display: flex;
+  width: 1500px;
+  height: 267.7200012207031px;
+  border-radius: 16px;
+  border: 2px solid #AEE3BD;
+  background-color: #E4F0E7;
+ align-items: center;
+ margin: 20px 20px 100px 200px;
+ 
+}
+
+.community h1{
+  width:1028px;
+  height: 22px;
+  font-family: Liberation Sans;
+  font-weight: 700;
+  font-size: 19.5px;
+  text-align: center;
+  color: #354064;
+   margin: 70px 300px 200px 650px;
+
+}
+
+.firstone{
+  display: flex;
+  width: 258px;
+  height:148.52999877929688px ;
+  top: 87.18px;
+  left: 106.55px;
+  padding:38.27px,14px,33px,14px ;
+  border: 2px solid #7CC18B;
+  margin-right: 60px;
+  border-radius: 11px;
+  background-color: white;
+}
+
+.firstone h2{
+  width:230px ;
+  height: 18px;
+  font-family: Liberation Sans;
+  font-size: 16px;
+  color: #227B3C;
+text-align: center;
+
+}
+
+.firstone span{
+  width:230px ;
+  height: 36px;
+  font-family:Liberation Sans ;
+  font-weight: 700;
+ text-align: center;
+   padding-top: 30px;
+   padding-right: 80px;
+  height: 18px;
+  font-family: Liberation Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color:#133B51 ;
+}
+.second{
+  display: flex;
+  width: 258px;
+  height:148.52999877929688px ;
+  top: 87.18px;
+  left: 106.55px;
+  padding:38.27px,14px,33px,14px ;
+  margin: 100px 3px px 700px;
+  border: 2px solid #7CC18B;
+  margin-right: 60px;
+  border-radius: 11px;
+  background-color: white;
+}

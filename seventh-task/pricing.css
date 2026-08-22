@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* ================= NAV ================= */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+}
+
+
+
+nav .container img {
+    width: 100px;
+    height: 16px;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .container ul a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .container svg{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+nav .container ul a:hover{
+    opacity: 30%;
+}
+
+nav .container button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section .container{
+    display: flex;
+    
+}
+
+
+section .container .left{
+    background-color: #000;
+    color: #fff;
+    width: 40%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section .container .left .content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section .container .left .content .line{
+     position: absolute;
+    left: 0;
+    width: 6px;
+    top: 35%;
+    height: 150px;
+    background: linear-gradient(to bottom, #FFC593, #BC7198, #5A77FF);
+}
+
+
+section .container .left .content h2{
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 4.17px;
+}
+
+section .container .left .content p{
+    font-size: 15px;
+    opacity: 60%;
+    line-height: 25px;
+}
+
+section .container .right{
+    width: 60%;
+}
+
+section .container .right img{
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: 50% ;
+    object-position: center;
+}
+main .container{
+    display: flex;
+    padding: 120px;
+    gap: 30px;
+     align-items: center;
+     justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .container .card{
+    width: calc((100% - 60px) / 3);
+  display: flex;
+background-color: #F5F5F5;
+padding: 60px;
+justify-content: center;
+text-align: center;
+}
+
+
+main .container .card.special {
+    background-color: #000;
+color: #F5F5F5;
+ position: relative;
+ height: 470px;
+ width: 350px;
+
+}
+
+
+main .container .card.special .content{
+    width: 70%;
+  
+}
+
+main .container .card.special .line{
+      position: absolute;
+      top: 0;
+    width: 100%;
+    left: 0;
+    height: 6px;
+    background: linear-gradient(to bottom, 
+    #FFC593, 
+    #BC7198, 
+    #5A77FF);
+   
+}
+main .toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100px);
+    padding-bottom: 30px;
+    gap: 20px;
+}
+main .toggle span{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+main .toggle .private{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    opacity: 50%;
+}
+
+main .container .card.special .content button{
+    background-color: #F5F5F5;
+ color: #000;
+}
+
+main .container .card .content{
+  display: flex;
+  flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+main .container .card .price{
+    display: none;
+}
+
+main .container .card .price h3{
+       font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    text-transform: uppercase;
+}
+main .container .card .price p{
+       text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+
+main .container .card .content h3{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    text-transform: uppercase;
+}
+main .container .card .content p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+
+main .container .card h2{
+    font-size:24px ;
+    line-height: 25px;
+}
+main .container .card .content button{
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #F5F5F5;
+}
+
+.subscribtion .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.subscribtion  h1{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    text-align: center;
+}
+.top table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.top table thead{
+      border-bottom: 1px solid #000;
+
+}
+.top table thead tr th {
+padding: 30px;
+font-size: 12px;
+letter-spacing: 2px;
+font-weight: 700;
+ 
+} 
+.top table tbody tr {
+   border-bottom: 1px solid #DFDFDF;
+
+}
+.top table tbody tr th{
+    padding: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+
+
+.top table tbody tr td{
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+.beta .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+
+}
+
+
+.beta .container   {
+   background-image: url("./beta.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+    position: relative;
+    
+}
+
+.beta .container .content{
+    width: 45%;
+}
+
+.beta .container .content h2{
+    line-height: 30px;
+    letter-spacing: 4.17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.beta .container .content .line{
+    position: absolute;
+    left: 0;
+    width: 6px;
+   top: 0;
+    height: 300px;
+    background: linear-gradient(to bottom, #FFC593, #BC7198, #5A77FF);
+}
+
+.beta .container .text a{
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.beta .container .text svg{
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+
+footer{
+    background-color: #000;
+}
+
+
+footer .container{
+    display: flex;
+ gap: 80px;
+padding: 60px;
+
+}
+
+
+footer .container img{
+    width: 142px;
+    height: 16px;
+   
+}
+
+footer .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .icons{
+    display: flex;
+   
+    gap: 20px;
+   
+}
+
+
+
+footer .container .icons svg{
+    width: 30px;
+    height: 50px;
+padding: 5px;
+
+
+}
+
+
+footer .container .links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+footer .container .links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+   
+}
+
+footer .container .links a:hover{
+    opacity: 30%;
+}
+
+
+footer .container .last{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: auto;
+}
+
+
+footer .container .last a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container .last p{
+    font-size: 15px;
+    color: #fff;
+    
+    opacity: 50.25%;
+   margin-left: -30px;
+}
+@media (max-width:991px){
+     nav .container{
+        padding: 10px 20px;
+     }
+
+     section .container .right img{
+        height: 700px;
+     }
+section .container .left .content{
+    width: 90%;
+}
+section .container .left .content .line{
+    height: 200px;
+    top: 36%;
+}
+main .container{
+    flex-direction: column;
+   
+}
+
+main .container .card{
+    width: 100%;
+  
+   justify-content: space-between;
+  
+}
+
+main .container .card .content{
+     width: 25%;
+       
+     
+        align-items: center;
+}
+main .container .card .content p{
+    text-align: left;
+     margin-left: -30px;
+}
+main .container .card .content h2{
+text-align: left;
+
+}
+
+main .container .card .price{
+    display: block;
+}
+
+main .container .card .content h3,
+main .container .card .content span{
+    display: none;
+}
+
+main .container .card .content button{
+    width: 270px;
+}
+   main .container .card.special {
+       height: auto;
+ width: 100%;
+
+      
+    }
+ main .container{
+    padding: 40px;
+ }
+
+
+    main .container .card.special .content{
+        width: 25%;
+
+    }
+     main .container .card.special .content p{
+        text-align: left;
+       
+     }
+     main .container .card.special .line{
+      
+      width: 6px;
+      height: 100%;
+        left: 0;
+      top: 0;
+     }
+main .toggle{
+    transform: translateY(40px);
+}
+
+     footer .container {
+  flex-direction: column;
+    gap: 20px;
+  }
+
+
+  footer .container .content{
+    gap: 40px;
+  }
+
+ footer .container .links {
+   
+    gap: 10px;
+    flex-direction: row;
+  }
+
+
+
+}
+
+@media (max-width:767px) {
+     nav .container ul a,
+    nav .container button{
+        display: none;
+    }
+    nav .container svg{
+   
+    display: block;
+}
+
+section .container{
+    flex-direction: column-reverse;
+}
+section .container .left{
+    width: 100%;
+}
+
+main .container{
+  padding: 80px;
+}
+ main .container .card.special{
+    width: 318px;
+ }
+ main .container .card.special .content{
+width: 70%;
+ }
+
+
+main .container .card{
+    width: 318px;
+    justify-content: center;
+ 
+}
+main .container .card .content p,
+main .container .card.special .content p{
+    text-align: center;
+}
+
+ main .container .card.special .line{
+    width: 100%;
+    height: 6px;
+ }
+main .container .card .price{
+    display: none;
+}
+
+main .container .card .content h3,
+main .container .card .content span{
+    display: block;
+}
+main .container .card .content{
+    width: 70%;
+}
+
+
+
+section .container .left .content{
+    width: 50%;
+}
+
+   section .container .right {
+    width: 100%;
+     }
+section .container .left{
+    justify-content: flex-start;
+}
+
+
+section .container .left .content .line{
+  
+left: 100px;
+    top:0;
+   width: 23%;
+   height: 6px;
+  
+}
+  .beta .container {
+        flex-direction: column;
+     }
+.beta .container .content .line{
+    width: 17%;
+    height: 6px;
+    left: 110px;
+}
+ footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .links{
+        flex-direction: column;
+        
+      
+    }
+  footer .container .content{
+    gap: 40px;
+  }
+
+     footer .container .links a{
+font-size: 12px;
+     }
+
+    footer .container .last {
+        margin-left: 0;
+        gap: 50px;
+    }
+footer .container .last a{
+    font-size: 14px;
+     text-align: center;
+}
+
+       footer .container .last p{
+            font-size: 15px;
+           
+        }
+
+}
