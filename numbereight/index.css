@@ -78,7 +78,7 @@ footer .news .socialicons svg{
     border: 2px solid ;
 }
 
-@media (max-width:991px) {
+@media (max-width:992px) {
     section nav .containernav ul a{
        display: none;
     }
