@@ -410,6 +410,8 @@ margin-bottom: 5px;
     font-size: 12px;
     text-decoration: none;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -425,6 +427,8 @@ margin-bottom: 5px;
     font-size: 12px;
     text-decoration: none;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -438,6 +442,9 @@ margin-bottom: 5px;
     font-size: 12px;
     text-decoration: none;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .trips .container .fourth{
@@ -448,8 +455,7 @@ margin-bottom: 5px;
 .trips .container .second .content svg,
 .trips .container .third .content svg,
 .trips .container .fourth .content svg{
-    width: 100px;
-    margin-left: 180px;
+  margin-right: 40px;
 }
 
 .trips .container .fourth .content a{
@@ -457,6 +463,8 @@ margin-bottom: 5px;
     font-size: 12px;
     text-decoration: none;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -634,11 +642,7 @@ padding-right: 10px;
   .trips .container .second .content .specall,
    .trips .container .third .content .specall,
     .trips .container .fourth .content .specall {
-    width: 350px;
-   
-   
-
-
+    width: 90%;
 
 
 }
@@ -649,9 +653,7 @@ padding-right: 10px;
     .design .top .content{
         width: 80%;
     }
-       .design .container .top{
-        width: 80%;
-    }
+  
        .beatiful .container .bottom{
         width: 30%;
     }
@@ -661,7 +663,7 @@ padding-right: 10px;
    
 }
 
-    .beatiful .top{
+    .beatiful .container .top{
         width: 70%;
     }
     .beatiful .top .content{
@@ -716,8 +718,8 @@ flex-direction: column-reverse;
 width: 100%;
     }
     .stories .left .content{
-        padding-right: 50px;
-        width: 60%;
+        padding-right: 30px;
+        width: 90%;
     }
 
     .stories .left {
@@ -727,15 +729,10 @@ width: 100%;
 width: 20%;
 height: 6px;
 top: 0;
-left: 140px;
+left: 40px;
 }
 
-.trips .container .firsttrip .content  svg,
-.trips .container .second .content svg,
-.trips .container .third .content svg,
-.trips .container .fourth .content svg{
-    margin-left: 450px;
-}
+
 
 .beatiful{
     padding: 0;
@@ -748,7 +745,7 @@ left: 140px;
 
 }
 .beatiful .top .content{
-    width: 70%;
+    width: 85%;
 }
 
 .beatiful .top .content h2{
@@ -757,8 +754,19 @@ left: 140px;
 
 
 .beatiful .container .bottom{
-    width: 120%;
+    width: 100%;
   
+}
+.beatiful .container .top{
+    
+    width: 100%;
+    padding: 50px;
+}
+
+.beatiful .container .bottom img{
+    height: 400px;
+     object-fit: cover;
+    object-position: 60% left;
 }
 
 .design .container{
@@ -767,7 +775,23 @@ left: 140px;
 }
 
 .design .container .bottom {
-    width: 120%;
+    width: 100%;
+}
+.design .container .bottom img{
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    object-position: 40% top;
+}
+.design .container .top{
+    padding: 40px;
+    
+    width: 100%;
+ 
+}
+.design .top .content{
+    width: 90%;
+    text-align: start;
 }
 
 .design .top .content h2{
@@ -793,14 +817,17 @@ left: 140px;
    .trips .container .third .content .specall,
     .trips .container .fourth .content .specall {
    width: 90%;
-   
-   
 
-
+}
+.trips .container .firsttrip .content  svg,
+.trips .container .second .content svg,
+.trips .container .third .content svg,
+.trips .container .fourth .content svg{
+  margin-right: 50px;
 }
 
    .whatweoffer .cards .card{
-         width: 100% 
+         width: 100%;
         
     }
     footer .container {

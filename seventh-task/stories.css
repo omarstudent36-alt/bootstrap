@@ -257,8 +257,7 @@ section .container .content a:hover{
 .trips .container .fourtten .content svg ,
 .trips .container .fiften .content svg,
 .trips .container .sixteen .content svg{
-    width: 100px;
-    margin-left: 180px;
+   margin-right: 40px;
 }
 
 .trips .container .firsttrip .boder,
@@ -437,6 +436,8 @@ margin-bottom: 5px;
     font-size: 12px;
     text-decoration: none;
     letter-spacing: 2px;
+     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -683,7 +684,7 @@ width: 40%;
 .trips .container .fourtten .content svg,
 .trips .container .fiften .content svg,
 .trips .container .sixteen .content svg{
-    margin-left: 480px;
+  margin-right: 50px;
 }
 
 
